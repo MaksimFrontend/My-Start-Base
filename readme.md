@@ -60,7 +60,11 @@
 
 2. **git remote add origin git@github.com:MaksimFrontend/My-Start-Base.git** - Связвание проекта с репозиторием. Если проект уже связан с другим репозиторием - будет выдавать ошибку
 
+4. **git remote add duplicated git@github.com:MaksimFrontend/My-Start-Base.git** - Свяжет проект с ещё одним репозиторием и у проекта будет два удалённых репозитория (duplicated - это название, которое мы сами задаём, по уполчанию применяется - origin)
 
+5. **git push duplicated master** - Пушит изменения на выбранный репозиторий (в нашем случае либо "origin", либо  "duplicated")
+
+6. **git remote remove duplicated** - Удалит один из выбранных репозиториев по алиасу (Алиас, в нашем случае - это либо origin, либо duplicated)
 
 
 
